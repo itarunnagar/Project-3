@@ -8,6 +8,9 @@ body {
   background-image: url(./assets/bg.png);
   background-size: cover;
 }
+main {
+  /* background-image: url(./assets/bg.png); */
+}
 /* Here Header Section Start */
 /* Here Header Section Start */
 /* Here Header Section Start */
@@ -25,6 +28,9 @@ header {
   color: white;
   margin: 0px 70px;
   padding: 13px 0px;
+}
+.menu-bar {
+  display: none;
 }
 .logo img {
   width: 110px;
@@ -96,4 +102,69 @@ header {
   font-weight: 700;
   font-size: 20px;
   padding: 10px 35px;
+}
+/* Media Queries Start */
+/* Media Queries Start */
+/* Media Queries Start */
+/* Mobile Section */
+/* Mobile Section */
+@media (max-width: 1100px) {
+  body {
+    /* height: 97vh; */
+    height: 97vh;
+    background-repeat: no-repeat;
+  }
+  /* Here Header Section Start */
+  /* Here Header Section Start */
+  /* Here Header Section Start */
+  /* Here Header Section Start */
+  header {
+    background-color: black;
+    height: 65px;
+    width: 100%;
+  }
+  .navigation {
+    margin: 0px;
+    padding: 15px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+  .menu-bar {
+    display: block;
+  }
+  .line {
+    display: none;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .btn {
+    padding: 10px;
+  }
+
+  /* Here Main or Hero Section Start */
+  /* Here Main or Hero Section Start */
+  /* Here Main or Hero Section Start */
+  /* Here Main or Hero Section Start */
+  .hero-section {
+    padding: 20px;
+    align-items: baseline;
+    justify-content: baseline;
+    margin-top: 190px;
+    margin-left: 15px;
+  }
+  .heading {
+    font-size: 45px;
+    line-height: 50px;
+    text-indent: 0px;
+  }
+  .sub-heading {
+    font-size: 17px;
+    margin: 20px 0px;
+  }
+  .big-button {
+    font-weight: 600;
+  }
 }
